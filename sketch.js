@@ -27,6 +27,7 @@ function setup() {
 
 
 function draw() {
+background("red")
   rectMode(CENTER);
   Engine.update(engine);
   paper.display();
